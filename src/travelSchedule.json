@@ -1,0 +1,52 @@
+{
+  "travelSchedule": [
+    {
+      "loc": "lille-lyon",
+      "mode": "train",
+      "departure": "7:00",
+      "arrival": "10:00"
+    },
+	{
+		"loc": "lille-lyon",
+		"mode": "bus",
+		"departure": "12:00",
+		"arrival": "21:00"
+	  },
+    {
+      "loc": "paris-rennes",
+      "mode": "bus",
+      "departure": "7:00",
+      "arrival": "11:00"
+    },
+	{
+		"loc": "paris-rennes",
+		"mode": "bus",
+		"departure": "17:00",
+		"arrival": "21:00"
+	  },
+    {
+      "loc": "bordeaux-french riviera",
+      "mode": "train",
+      "departure": "13:00",
+      "arrival": "15:00"
+    },
+	{
+		"loc": "arles-biarritz",
+		"mode": "train",
+		"departure": "10:00",
+		"arrival": "17:00"
+	  },
+	  {
+		"loc": "bordeaux-starsbourg",
+		"mode": "train",
+		"departure": "7:00",
+		"arrival": "11:00"
+	  },
+	  {
+		"loc": "fontainebleau-starsbourg",
+		"mode": "bus",
+		"departure": "8:00",
+		"arrival": "12:30"
+	  }
+  ]
+}
