@@ -1,52 +1,82 @@
+
+
 {
   "travelSchedule": [
     {
-      "loc": "lille-lyon",
-      "mode": "train",
-      "departure": "7:00",
-      "arrival": "10:00"
+      "name": "Taxi Rides by Alpha Taxi",
+      "icon": "",
+      "schedules": []
     },
-	{
-		"loc": "lille-lyon",
-		"mode": "bus",
-		"departure": "12:00",
-		"arrival": "21:00"
-	  },
     {
-      "loc": "paris-rennes",
-      "mode": "bus",
-      "departure": "7:00",
-      "arrival": "11:00"
+      "name": "Train Schedules",
+      "icon": "",
+      "schedules": [
+        {
+          "loc": "lille-lyon",
+          "mode": "train",
+          "departure": "7:00",
+          "arrival": "10:00"
+        },
+        {
+          "loc": "arles-biarritz",
+          "mode": "train",
+          "departure": "10:00",
+          "arrival": "17:00"
+        },
+        {
+          "loc": "bordeaux-starsbourg",
+          "mode": "train",
+          "departure": "7:00",
+          "arrival": "11:00"
+        },
+        {
+          "loc": "bordeaux-french riviera",
+          "mode": "train",
+          "departure": "13:00",
+          "arrival": "15:00"
+        },
+		{
+			"loc": "paris-rennes",
+			"mode": "train",
+			"departure": "10:00",
+			"arrival": "14:00"
+		  }
+      ]
     },
-	{
-		"loc": "paris-rennes",
-		"mode": "bus",
-		"departure": "17:00",
-		"arrival": "21:00"
-	  },
     {
-      "loc": "bordeaux-french riviera",
-      "mode": "train",
-      "departure": "13:00",
-      "arrival": "15:00"
+      "name": "Bus Schedules",
+      "icon": "",
+      "schedules": [
+        {
+          "loc": "lille-lyon",
+          "mode": "bus",
+          "departure": "12:00",
+          "arrival": "21:00"
+        },
+        {
+          "loc": "paris-rennes",
+          "mode": "bus",
+          "departure": "7:00",
+          "arrival": "11:00"
+        },
+        {
+          "loc": "paris-rennes",
+          "mode": "bus",
+          "departure": "15:00",
+          "arrival": "19:00"
+        },
+        {
+          "loc": "fontainebleau-starsbourg",
+          "mode": "bus",
+          "departure": "8:00",
+          "arrival": "12:30"
+        }
+      ]
     },
-	{
-		"loc": "arles-biarritz",
-		"mode": "train",
-		"departure": "10:00",
-		"arrival": "17:00"
-	  },
-	  {
-		"loc": "bordeaux-starsbourg",
-		"mode": "train",
-		"departure": "7:00",
-		"arrival": "11:00"
-	  },
-	  {
-		"loc": "fontainebleau-starsbourg",
-		"mode": "bus",
-		"departure": "8:00",
-		"arrival": "12:30"
-	  }
+    {
+      "name": "Carpool option",
+      "icon": "",
+      "schedules": []
+    }
   ]
 }

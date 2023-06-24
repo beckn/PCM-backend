@@ -10,16 +10,6 @@ import { TravelRequestDto } from "./travelList.request.dto";
 export class TravelListService {
   constructor() {}
 
-  async readJsonFile(filePath: string): Promise<any> {
-    try {
-      const data = await fs.readJson(filePath);
-    
-      return data;
-    } catch (error) {
-      throw error;
-    }
-  }
-
   async readSchedule(
     travel_location: TravelRequestDto,
     filePath: string
@@ -30,13 +20,16 @@ export class TravelListService {
         travel_location.pickup_location.toLowerCase().trim() +
         "-" +
         travel_location.drop_location.toLowerCase().trim();
-      const filteredData = data.travelSchedule.filter(
-        (obj) => obj.loc === filter
-      );
-      const schedule = {
-        travelSchedule: filteredData,
-      };
-      return schedule;
+      const result = data.travelSchedule.map((option) => {
+        return {
+          ...option,
+          schedules: option.schedules.filter(
+            (schedule) => schedule.loc === filter
+          ),
+        };
+      });
+
+      return result;
     } catch (error) {
       throw error;
     }
