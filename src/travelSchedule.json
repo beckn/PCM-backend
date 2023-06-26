@@ -4,12 +4,12 @@
   "travelSchedule": [
     {
       "name": "Taxi Rides by Alpha Taxi",
-      "icon": "",
+      "icon": "https://beckn-pcm-artificats.s3.ap-south-1.amazonaws.com/cab.png",
       "schedules": []
     },
     {
       "name": "Train Schedules",
-      "icon": "",
+      "icon": "https://beckn-pcm-artificats.s3.ap-south-1.amazonaws.com/train.png",
       "schedules": [
         {
           "loc": "lille-lyon",
@@ -45,7 +45,7 @@
     },
     {
       "name": "Bus Schedules",
-      "icon": "",
+      "icon": "https://beckn-pcm-artificats.s3.ap-south-1.amazonaws.com/bus.png",
       "schedules": [
         {
           "loc": "lille-lyon",
@@ -75,7 +75,7 @@
     },
     {
       "name": "Carpool option",
-      "icon": "",
+      "icon": "https://beckn-pcm-artificats.s3.ap-south-1.amazonaws.com/carPool.png",
       "schedules": []
     }
   ]
