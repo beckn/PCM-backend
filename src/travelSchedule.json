@@ -3,12 +3,12 @@
 {
   "travelSchedule": [
     {
-      "name": "Taxi Rides",
+      "name": "Taxis",
       "icon": "https://beckn-pcm-artificats.s3.ap-south-1.amazonaws.com/cab.png",
       "schedules": []
     },
     {
-      "name": "Train Schedules",
+      "name": "Horaire de train",
       "icon": "https://beckn-pcm-artificats.s3.ap-south-1.amazonaws.com/train.png",
       "schedules": [
         {
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "name": "Bus Schedules",
+      "name": "Horaires des bus",
       "icon": "https://beckn-pcm-artificats.s3.ap-south-1.amazonaws.com/bus.png",
       "schedules": [
         {
@@ -74,7 +74,7 @@
       ]
     },
     {
-      "name": "Carpool",
+      "name": "Covoiturage",
       "icon": "https://beckn-pcm-artificats.s3.ap-south-1.amazonaws.com/carPool.png",
       "schedules": []
     }
