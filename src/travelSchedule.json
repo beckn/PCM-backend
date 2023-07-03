@@ -5,7 +5,8 @@
     {
       "name": "Taxis",
       "icon": "https://beckn-pcm-artificats.s3.ap-south-1.amazonaws.com/cab.png",
-      "schedules": []
+      "schedules": [],
+      "enabled":true
     },
     {
       "name": "Horaire de train",
@@ -41,7 +42,8 @@
 			"departure": "10:00",
 			"arrival": "14:00"
 		  }
-      ]
+      ],
+      "enabled":false
     },
     {
       "name": "Horaires des bus",
@@ -71,12 +73,14 @@
           "departure": "8:00",
           "arrival": "12:30"
         }
-      ]
+      ],
+      "enabled":false
     },
     {
       "name": "Covoiturage",
       "icon": "https://beckn-pcm-artificats.s3.ap-south-1.amazonaws.com/carPool.png",
-      "schedules": []
+      "schedules": [],
+      "enabled":false
     }
   ]
 }
