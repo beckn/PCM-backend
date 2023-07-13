@@ -1,0 +1,86 @@
+
+
+{
+  "travelSchedule": [
+    {
+      "name": "Taxis",
+      "icon": "https://beckn-pcm-artificats.s3.ap-south-1.amazonaws.com/cab.png",
+      "schedules": [],
+      "enabled":true
+    },
+    {
+      "name": "Horaire de train",
+      "icon": "https://beckn-pcm-artificats.s3.ap-south-1.amazonaws.com/train.png",
+      "schedules": [
+        {
+          "loc": "lille-lyon",
+          "mode": "train",
+          "departure": "7:00",
+          "arrival": "10:00"
+        },
+        {
+          "loc": "arles-biarritz",
+          "mode": "train",
+          "departure": "10:00",
+          "arrival": "17:00"
+        },
+        {
+          "loc": "bordeaux-starsbourg",
+          "mode": "train",
+          "departure": "7:00",
+          "arrival": "11:00"
+        },
+        {
+          "loc": "bordeaux-french riviera",
+          "mode": "train",
+          "departure": "13:00",
+          "arrival": "15:00"
+        },
+		{
+			"loc": "paris-rennes",
+			"mode": "train",
+			"departure": "10:00",
+			"arrival": "14:00"
+		  }
+      ],
+      "enabled":false
+    },
+    {
+      "name": "Horaires des bus",
+      "icon": "https://beckn-pcm-artificats.s3.ap-south-1.amazonaws.com/bus.png",
+      "schedules": [
+        {
+          "loc": "lille-lyon",
+          "mode": "bus",
+          "departure": "12:00",
+          "arrival": "21:00"
+        },
+        {
+          "loc": "paris-rennes",
+          "mode": "bus",
+          "departure": "7:00",
+          "arrival": "11:00"
+        },
+        {
+          "loc": "paris-rennes",
+          "mode": "bus",
+          "departure": "15:00",
+          "arrival": "19:00"
+        },
+        {
+          "loc": "fontainebleau-starsbourg",
+          "mode": "bus",
+          "departure": "8:00",
+          "arrival": "12:30"
+        }
+      ],
+      "enabled":false
+    },
+    {
+      "name": "Covoiturage",
+      "icon": "https://beckn-pcm-artificats.s3.ap-south-1.amazonaws.com/carPool.png",
+      "schedules": [],
+      "enabled":false
+    }
+  ]
+}
