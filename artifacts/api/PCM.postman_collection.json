@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "dc2585e1-f4c2-4262-92db-e2e0a5321662",
+		"name": "PCM",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Dev",
+			"item": [
+				{
+					"name": "getSchedule",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.pcm-dev.becknprotocol.io/travel-options?pickup_location=Paris&drop_location=rennes",
+							"protocol": "https",
+							"host": [
+								"api",
+								"pcm-dev",
+								"becknprotocol",
+								"io"
+							],
+							"path": [
+								"travel-options"
+							],
+							"query": [
+								{
+									"key": "pickup_location",
+									"value": "Paris"
+								},
+								{
+									"key": "drop_location",
+									"value": "rennes"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
